@@ -28,7 +28,6 @@ function loadStories(story_id){
     storyForm.innerHTML = ""; // empty div 
 
     const storyTitle = document.createElement('h3');
-//     storyTitle.className = "text-primary py-2"
     storyTitle.innerHTML = 'Provide the following words';
     storyForm.appendChild(storyTitle);
 
@@ -49,7 +48,6 @@ function loadStories(story_id){
     // generate submit button
     const btnRead = document.createElement("button");
     btnRead.innerHTML = "Read story"
-//     btnRead.className = "btn btn-primary";
     btnRead.onclick = function(){
         storyResult.innerHTML = ""; // empty div  
 
@@ -66,7 +64,6 @@ function loadStories(story_id){
         // add story title
         const title = document.createElement("h3");
         title.innerHTML = stories[story_id].title
-     //    title.className = "text-center text-primary";
         storyResult.appendChild(title);
 
         // show story content
