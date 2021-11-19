@@ -1,0 +1,55 @@
+body {
+    width: 90%;
+    margin: auto;
+    font-size: 16pt;
+    color:rgb(86, 86, 87);
+    background-color: rgb(236, 236, 236);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1 {
+    border-bottom: coral solid 3px;
+}
+h3 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+/* Styling the first page */
+#story-list button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background-color: cyan;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+button:hover {
+    background-color: rgb(3, 218, 218);
+    color:rgb(255, 255, 255)
+}
+
+/* styling the second page */
+#story-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: none;
+
+}
+
+/* styling the third page */
