@@ -4,16 +4,18 @@ body {
     font-size: 16pt;
     color:rgb(86, 86, 87);
     background-color: rgb(236, 236, 236);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 h1 {
     border-bottom: coral solid 3px;
+    margin-top: 3rem;
 }
 h3 {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 3rem;
+    /* color: coral; */
 }
 
 /* Styling the first page */
@@ -32,6 +34,7 @@ button {
     border: none;
     font-size: 15px;
     font-weight: 600;
+    
 }
 button:hover {
     background-color: rgb(3, 218, 218);
@@ -49,7 +52,20 @@ input {
     padding: 0.7rem;
     border-radius: 1rem;
     border: none;
+    font-size: 10pt;
 
 }
 
 /* styling the third page */
+.story-result {
+    margin:auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 00.7rem;
+}
+
+.result {
+    width: 100%;
+    margin-top: 1rem;
+}
